@@ -1,6 +1,6 @@
 import streamlit as st 
 
-import pandas as pd
+ 
 
 with st.form(key="sample_form"):
     st.subheader("Text Input")

@@ -33,4 +33,18 @@
 ## 011 : callbacks
 
 ## 012 : layouts
+
+## 013 : Advanced widget slider
+
+## 014 : Advanced widget checkbox
+
+## 015 : Cache_data
+
+## 016 : cache resource
+
+## 017 : manual rerun
+
+## 018 : fragments
+
+## 019 : multi_page app
         

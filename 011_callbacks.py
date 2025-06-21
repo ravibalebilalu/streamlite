@@ -1,12 +1,13 @@
 import streamlit as st 
-# set step and info in session_sate
 
+# set step and info in session_state
 if "step" not in st.session_state:
     st.session_state.step = 1
 
 if "info" not in st.session_state:
     st.session_state.info = {}
-def go_t0_step1():
+#functions for buttons
+def go_to_step1():
     st.session_state.step = 1
 
 
@@ -34,7 +35,7 @@ if st.session_state.step == 2:
         st.balloons()
         st.session_state.info = {}
     # 1 step back
-    st.button("Back",on_click=go_t0_step1)
+    st.button("Back",on_click=go_to_step1)
          
 
 
